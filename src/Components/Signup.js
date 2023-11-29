@@ -29,7 +29,7 @@ export default function Signup() {
           type="email"
           placeholder="Enter your emailId"
           onChange={inputEmail}
-          value={email}
+          value={Email}
         />
       </div>
       <div>

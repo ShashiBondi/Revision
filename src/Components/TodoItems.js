@@ -1,8 +1,11 @@
+import { useNavigate } from "react-router-dom";
+
 function TodoItems(props) {
   const { item, deleteButton, checkItems } = props;
   return (
     <div key={item.id}>
-      {item.name},
+      {item.name}
+      <button>UPDATE</button>
       <button
         onClick={function y() {
           deleteButton(item.id);
